@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7b95a1;
+}
+
+#project-details {
+    padding: 50px;
+    text-align: center; /* Center align content */
+}
+
+.project {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: inline-block; /* Center align content */
+    text-align: left; /* Reset text alignment */
+}
+
+.project h2 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    display: block;
+    margin: 0 auto; /* Center align images */
+    max-width: 500px; /* Adjust the maximum width as needed */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.project p {
+    color: #0a0a0a;
+    line-height: 1.6;
+    text-align: center; /* Justify text */
+}
+
+.project h3 {
+    color: #946363;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    color: #7b95a1;
+}
+
+.project ul li {
+    color: #555555;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 10px 20px;
+    background-color: #f7f7fa;
+    color: #182bd1;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.project a:hover {
+    background-color: #555555;
+    color: #5bb134;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer a {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

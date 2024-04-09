@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<section id="contact">
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:tituskithome122@gmail.com">tituskithome122@gmail.com</a></p>
+        <p>Phone Number: <a href="tel:+254702120644">+254 702 120 644</a></p>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <!-- Only one form tag -->
+        <form id="contactForm" action="send-message.php" method="post" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<script src="tito.js"></script>
+
+</body>
+</html>

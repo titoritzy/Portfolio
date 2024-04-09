@@ -1,0 +1,80 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+.navbar {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    width: 100%; /* Set navbar width to 100% */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin-right: 13rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Hero section */
+.hero {
+    background-image: url('bptf.avif');
+    background-size: cover;
+    background-position: center;
+    color: #a0d427;
+    text-align: center;
+    padding: 8rem 0; 
+}
+
+.hero h1 {
+    font-size: 5rem; /* Increase font size */
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem; /* Increase font size */
+}
+
+
+
+/* Portfolio section */
+#portfolio {
+    padding: 4rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 0.6rem 0; 
+    background-color: #615e5e;
+    color: #fff;
+}
