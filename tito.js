@@ -12,7 +12,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     .then(response => response.json())
     .then(data => {
         if (data.success) {
-            alert('Your message has been sent successfully!');
+            // Prompt user with a success message
+            prompt('Your message has been sent successfully!');
             document.getElementById('contactForm').reset(); // Reset form
         } else {
             alert('An error occurred, please try again later.');
